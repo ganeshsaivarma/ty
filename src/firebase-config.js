@@ -5,7 +5,7 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore"; // 👈 add Firestore
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCw9BhxKvc1Jo2Wrdo4-WW-0B3bYyXGJmo",
+  apiKey: "AIzaSyCw9BhxKvc1Jo2WW-0B3bYyXGJmo",
   authDomain: "thyroidcheckupapp.firebaseapp.com",
   projectId: "thyroidcheckupapp",
   storageBucket: "thyroidcheckupapp.firebasestorage.app",
