@@ -1,0 +1,79 @@
+/* General Container Styles */
+.quiz-container {
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .question-container h2 {
+    font-size: 1.5rem;
+    color: #3b3b3b;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .option-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .option-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-5px);
+  }
+  
+  .option-btn:focus {
+    outline: none;
+  }
+  
+  .results-container {
+    text-align: center;
+  }
+  
+  .results-container h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+  }
+  
+  .results-container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #e9f7e9;
+  }
+  
+  /* Progress Bar */
+  .progress-bar-container {
+    margin-top: 15px;
+    height: 5px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 0;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+  }
+  
